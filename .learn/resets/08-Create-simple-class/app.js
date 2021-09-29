@@ -1,22 +1,21 @@
 class Counter{
 	constructor(){
-		this.value=0
+		//initialization of the counter variable
 		
 	}
 	increaseOne(){
-		return this.value++
+		//increase the value in one
 	}
 	decreaseOne(){
-		return this.value--
+		//decrease the value in one
 	}
 	getValue(){
-		return this.value
+		//return the value
 	}	
 }
 
 let myNewCounter = new Counter();
 myNewCounter.increaseOne();
-
 console.log(myNewCounter.getValue());
 myNewCounter.increaseOne();
 myNewCounter.increaseOne();

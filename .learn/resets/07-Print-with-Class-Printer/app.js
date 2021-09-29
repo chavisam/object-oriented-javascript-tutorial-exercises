@@ -9,9 +9,6 @@ class Printer{
     }
     
     //you can add new functions here
-    getModel(){
-        return this._model
-    }
   
     printerTest() { 
         return `My brand is ${this._brand} and my model ${this._model}`; 
@@ -21,7 +18,4 @@ class Printer{
 }
 
 let epsonPrinter = new Printer();
-epsonPrinter._model = 'TX-200'
-
-
 console.log("The model of the printer is: "+epsonPrinter.getModel());

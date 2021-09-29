@@ -15,9 +15,4 @@ class Printer{
     } 
 }
 
-let myPrinter = new Printer()
-myPrinter._brand = 'Epson';
-myPrinter._model = 'TX-200';
-
-let testResult = myPrinter.printerTest()
-console.log(testResult)
+//Your code here
